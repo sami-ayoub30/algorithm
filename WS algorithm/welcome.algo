@@ -1,0 +1,13 @@
+ALGORITHM algorithm_name
+VAR
+    name , age , country:STRING
+BEGIN
+    write("enter your name")
+    write("enter your age")
+    write("enter your country")
+
+    read( name + age + country)
+
+    sum:= name + age + country
+    write("the sum of" + name + age + country + "is" sum)
+END
